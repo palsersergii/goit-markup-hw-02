@@ -1,4 +1,96 @@
-
 ul {
-    list-style: none;
+  list-style: none;
+}
+/* змінні */
+:root {
+  --p-textcolor: #757575;
+  --main-textcolor: #212121;
+  --active-color:#2196F3;
+}
+body {
+  font-family: Roboto;
+  line-height: 1.7;
+}
+header {
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+}
+/* стилі логотипа */
+.logo-style {
+  margin-block-start: left;
+  margin-top: 14px;
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-style1 {
+  color:var(--active-color)
+}
+.logo-style2 {
+  color: var(--main-textcolor);
+}
+/* навігація хедера */
+.studio-style {
+  margin-top: 32px;
+  margin-left: 93px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-textcolor);
+}
+.studio-style:hover,:focus{
+  color: var(--active-color);
+}
+.portfolio-style {
+  margin-top: 32px;
+  margin-left: 50px;
+  color: var(--main-textcolor);
+}
+.portfolio-style:hover,:focus{
+  color: var(--active-color);
+}
+.contact-style {
+  margin-top: 32px;
+  margin-left: 50px;
+  color: var(--main-textcolor);
+}
+.contact-style:hover,:focus{
+  color: var(--active-color);
+}
+.navigation {
+  display: inline-flex;
+}
+.contact {
+  display: inline-flex;
+  padding: 0;
+}
+.nav-link {
+  display: inline-flex;
+  padding: 0;
+}
+.mailto {
+  margin-top: 32px;
+  margin-left: 331px;
+  color: var(--p-textcolor);
+}
+.mailto:hover,:focus{
+  color: var(--active-color);
+}
+.phone {
+  margin-top: 32px;
+  margin-left: 50px;
+  color: var(--p-textcolor);
+}
+.phone:hover,:focus{
+  color: var(--active-color);
 }
