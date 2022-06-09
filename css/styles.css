@@ -3,6 +3,7 @@ ul {
 }
 main {
   background: #f5f4fa;
+  width: 1600px;
 }
 
 /* змінні */
@@ -14,6 +15,7 @@ main {
 body {
   font-family: Roboto;
   line-height: 1.7;
+  width: 1600px;
 }
 header {
   display: inline-flex;
@@ -306,4 +308,221 @@ footer {
 .footerphone:hover,
 .footerphone:focus {
   color: #ffffff;
+}
+
+/* сторінка портфоліо */
+
+.portfolio-h1 {
+  color: transparent;
+  display: inline;
+
+  /* кнопки */
+}
+.button-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.button1-text {
+  color: var(--main-textcolor);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button1-text:hover,
+.button1-text:focus {
+  color: #ffffff;
+}
+.button2-text {
+  color: var(--main-textcolor);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button2-text:hover,
+.button2-text:focus {
+  color: #ffffff;
+}
+.button3-text {
+  color: var(--main-textcolor);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button3-text:hover,
+.button3-text:focus {
+  color: #ffffff;
+}
+.button4-text {
+  color: var(--main-textcolor);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button4-text:hover,
+.button4-text:focus {
+  color: #ffffff;
+}
+.button5-text {
+  color: var(--main-textcolor);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button5-text:hover,
+.button5-text:focus {
+  color: #ffffff;
+}
+.button1 {
+  width: 73px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 495px;
+  margin-top: 94px;
+}
+.button1:hover,
+.button1:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.button2 {
+  width: 128px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-top: 94px;
+}
+.button2:hover,
+.button2:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.button3 {
+  width: 145px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-top: 94px;
+}
+.button3:hover,
+.button3:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.button4 {
+  width: 103px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-top: 94px;
+}
+.button4:hover,
+.button4:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.button5 {
+  width: 130px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-top: 94px;
+}
+.button5:hover,
+.button5:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+/* плитка портфоліо */
+.company-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-textcolor);
+}
+.company-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--p-textcolor);
+}
+.first-line {
+  display: flex;
+}
+.second-line {
+  display: flex;
+}
+.third-line {
+  display: flex;
+}
+.img1 {
+  margin-left: 215px;
+  margin-top: 34px;
+}
+.img2 {
+  margin-left: 30px;
+  margin-top: 34px;
+}
+.img3 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.img4 {
+  margin-left: 215px;
+  margin-top: 30px;
+}
+.img5 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.img6 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.img7 {
+  margin-left: 215px;
+  margin-top: 30px;
+}
+.img8 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.img9 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.company-name>.img1 {
+  padding-top: 20px;
 }
