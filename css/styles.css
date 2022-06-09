@@ -54,7 +54,7 @@ a {
   color: var(--main-textcolor);
 }
 .studio-style:hover,
-:focus {
+.studio-style:focus {
   color: var(--active-color);
 }
 .portfolio-style {
@@ -63,7 +63,7 @@ a {
   color: var(--main-textcolor);
 }
 .portfolio-style:hover,
-:focus {
+.portfolio-style:focus {
   color: var(--active-color);
 }
 .contact-style {
@@ -72,7 +72,7 @@ a {
   color: var(--main-textcolor);
 }
 .contact-style:hover,
-:focus {
+.contact-style:focus {
   color: var(--active-color);
 }
 .navigation {
@@ -92,7 +92,7 @@ a {
   color: var(--p-textcolor);
 }
 .mailto:hover,
-:focus {
+.mailto:focus {
   color: var(--active-color);
 }
 .phone {
@@ -101,7 +101,7 @@ a {
   color: var(--p-textcolor);
 }
 .phone:hover,
-:focus {
+.phone:focus {
   color: var(--active-color);
 }
 /* стилі банера-героя */
@@ -291,7 +291,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 .footermail:hover,
-:focus {
+.footermail:focus {
   color: #ffffff;
 }
 .footerphone {
@@ -304,6 +304,6 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 .footerphone:hover,
-:focus {
+.footerphone:focus {
   color: #ffffff;
 }
