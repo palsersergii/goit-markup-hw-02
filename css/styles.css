@@ -138,6 +138,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 /* наші переваги */
 .our-skils {
@@ -376,6 +377,7 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button1-text:hover,
 .button1-text:focus {
@@ -390,6 +392,7 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button2-text:hover,
 .button2-text:focus {
@@ -404,6 +407,7 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button3-text:hover,
 .button3-text:focus {
@@ -418,6 +422,7 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button4-text:hover,
 .button4-text:focus {
@@ -432,6 +437,7 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button5-text:hover,
 .button5-text:focus {
